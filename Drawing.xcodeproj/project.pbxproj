@@ -11,6 +11,14 @@
 		30EAFED1293903ED0066382A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFED0293903ED0066382A /* ContentView.swift */; };
 		30EAFED3293903EE0066382A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAFED2293903EE0066382A /* Assets.xcassets */; };
 		30EAFED6293903EF0066382A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EAFED5293903EF0066382A /* Preview Assets.xcassets */; };
+		30EAFEDD293949DB0066382A /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEDC293949DB0066382A /* Flower.swift */; };
+		30EAFEDF293A79680066382A /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEDE293A79680066382A /* Arc.swift */; };
+		30EAFEE1293A7C790066382A /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEE0293A7C790066382A /* Borders.swift */; };
+		30EAFEE5293E7A6F0066382A /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEE4293E7A6F0066382A /* Polygon.swift */; };
+		30EAFEE7293E95EE0066382A /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEE6293E95EE0066382A /* Circle.swift */; };
+		30EAFEE929410B540066382A /* ColorCyclingCirle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEE829410B540066382A /* ColorCyclingCirle.swift */; };
+		30EAFEEB294111230066382A /* BlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEEA294111230066382A /* BlendView.swift */; };
+		30EAFEED294134DB0066382A /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAFEEC294134DB0066382A /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		30EAFED0293903ED0066382A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30EAFED2293903EE0066382A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30EAFED5293903EF0066382A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30EAFEDC293949DB0066382A /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		30EAFEDE293A79680066382A /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		30EAFEE0293A7C790066382A /* Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Borders.swift; sourceTree = "<group>"; };
+		30EAFEE4293E7A6F0066382A /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		30EAFEE6293E95EE0066382A /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		30EAFEE829410B540066382A /* ColorCyclingCirle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCirle.swift; sourceTree = "<group>"; };
+		30EAFEEA294111230066382A /* BlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendView.swift; sourceTree = "<group>"; };
+		30EAFEEC294134DB0066382A /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				30EAFECE293903ED0066382A /* DrawingApp.swift */,
 				30EAFED0293903ED0066382A /* ContentView.swift */,
+				30EAFEE4293E7A6F0066382A /* Polygon.swift */,
+				30EAFEE6293E95EE0066382A /* Circle.swift */,
+				30EAFEE829410B540066382A /* ColorCyclingCirle.swift */,
+				30EAFEEA294111230066382A /* BlendView.swift */,
+				30EAFEEC294134DB0066382A /* Animation.swift */,
+				30EAFEE0293A7C790066382A /* Borders.swift */,
+				30EAFEDE293A79680066382A /* Arc.swift */,
+				30EAFEDC293949DB0066382A /* Flower.swift */,
 				30EAFED2293903EE0066382A /* Assets.xcassets */,
 				30EAFED4293903EF0066382A /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EAFEE7293E95EE0066382A /* Circle.swift in Sources */,
+				30EAFEE929410B540066382A /* ColorCyclingCirle.swift in Sources */,
 				30EAFED1293903ED0066382A /* ContentView.swift in Sources */,
+				30EAFEE5293E7A6F0066382A /* Polygon.swift in Sources */,
+				30EAFEEB294111230066382A /* BlendView.swift in Sources */,
 				30EAFECF293903ED0066382A /* DrawingApp.swift in Sources */,
+				30EAFEDF293A79680066382A /* Arc.swift in Sources */,
+				30EAFEDD293949DB0066382A /* Flower.swift in Sources */,
+				30EAFEED294134DB0066382A /* Animation.swift in Sources */,
+				30EAFEE1293A7C790066382A /* Borders.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
